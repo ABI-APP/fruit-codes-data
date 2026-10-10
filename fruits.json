@@ -2,5 +2,55 @@
 {
   "schema_version": 1,
   "last_updated": "2026-10-11",
-  "fruits": []
+  "fruits": [
+    {
+      "id": "rocket",
+      "name": "Rocket",
+      "type": "Natural",
+      "rarity": "Common",
+      "icon_color": "#F97316"
+    },
+    {
+      "id": "spin",
+      "name": "Spin",
+      "type": "Natural",
+      "rarity": "Common",
+      "icon_color": "#38BDF8"
+    },
+    {
+      "id": "blade",
+      "name": "Blade",
+      "type": "Natural",
+      "rarity": "Common",
+      "icon_color": "#94A3B8"
+    },
+    {
+      "id": "spring",
+      "name": "Spring",
+      "type": "Natural",
+      "rarity": "Common",
+      "icon_color": "#EC4899"
+    },
+    {
+      "id": "bomb",
+      "name": "Bomb",
+      "type": "Natural",
+      "rarity": "Common",
+      "icon_color": "#EF4444"
+    },
+    {
+      "id": "smoke",
+      "name": "Smoke",
+      "type": "Elemental",
+      "rarity": "Common",
+      "icon_color": "#64748B"
+    },
+    {
+      "id": "spike",
+      "name": "Spike",
+      "type": "Natural",
+      "rarity": "Common",
+      "icon_color": "#A855F7"
+    }
+  ]
 }
