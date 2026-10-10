@@ -1,56 +1,1094 @@
-
 {
   "schema_version": 1,
   "last_updated": "2026-10-11",
+  "_source_note": "CANDIDATE DATASET — REVIEW BEFORE PUBLISHING. See staging/RESEARCH_PROVENANCE.md for full source details, uncertainties, and publishing instructions.",
   "fruits": [
+
     {
       "id": "rocket",
       "name": "Rocket",
       "type": "Natural",
       "rarity": "Common",
-      "icon_color": "#F97316"
+      "icon_color": "#FF6B6B",
+      "description": "An entry-level Natural fruit with rocket and explosion-based attacks. Affordable starting option for new players.",
+      "abilities": [
+        {"name": "Missile Fist", "description": "A rocket-propelled punch that launches the user forward"},
+        {"name": "Air Strike", "description": "Fires an aerial explosive projectile"},
+        {"name": "Rocket Crash", "description": "A high-speed diving attack using rocket propulsion"},
+        {"name": "Blast Off", "description": "Propels the user rapidly upward using a rocket burst"}
+      ],
+      "strengths": [
+        "Very affordable; accessible starting option",
+        "Basic mobility and range for early game"
+      ],
+      "weaknesses": [
+        "Low damage output in mid- and late-game content",
+        "No passive defensive ability"
+      ],
+      "rankings": {"overall": "D"}
     },
+
     {
       "id": "spin",
       "name": "Spin",
       "type": "Natural",
       "rarity": "Common",
-      "icon_color": "#38BDF8"
+      "icon_color": "#74B9FF",
+      "description": "A Common Natural fruit with spinning wind-based attacks and helicopter-like flight.",
+      "abilities": [
+        {"name": "Razor Wind", "description": "Fires rotating razor wind blades at enemies"},
+        {"name": "Tornado Assault", "description": "Spins rapidly to create a damaging mini-tornado"},
+        {"name": "Air Slasher", "description": "Launches a long-range spinning air blade"},
+        {"name": "Helicopter Flight", "description": "Uses rapid spinning to achieve sustained flight"}
+      ],
+      "strengths": [
+        "Cheapest fruit with a built-in flight ability",
+        "Flight available early in the game"
+      ],
+      "weaknesses": [
+        "Very limited combat effectiveness at higher levels",
+        "No passive or defensive abilities"
+      ],
+      "rankings": {"overall": "D"}
     },
+
     {
       "id": "blade",
       "name": "Blade",
       "type": "Natural",
       "rarity": "Common",
-      "icon_color": "#94A3B8"
+      "icon_color": "#ADB5BD",
+      "description": "A Common Natural fruit with spinning blade attacks and flight. Replaces the legacy Chop fruit.",
+      "abilities": [
+        {"name": "Razor Cyclone", "description": "Creates a spinning blade cyclone that hits multiple nearby enemies"},
+        {"name": "Blade Dance", "description": "Performs a rapid close-range slashing combination"},
+        {"name": "Saw Shredder", "description": "Launches a large rotating saw blade projectile"},
+        {"name": "Turbine Flight", "description": "Spins at high speed to achieve flight"}
+      ],
+      "strengths": [
+        "Slightly stronger than basic fruits at close range",
+        "Includes a flight ability"
+      ],
+      "weaknesses": [
+        "Limited effectiveness against enemies with high defense",
+        "Short effective range"
+      ],
+      "rankings": {"overall": "C"}
     },
+
     {
       "id": "spring",
       "name": "Spring",
       "type": "Natural",
       "rarity": "Common",
-      "icon_color": "#EC4899"
+      "icon_color": "#A8E063",
+      "description": "A Common Natural fruit with spring-coil-based attacks and a powerful leap.",
+      "abilities": [
+        {"name": "Knock", "description": "A powerful spring-loaded forward punch"},
+        {"name": "Spring Snipe", "description": "A long-range coiled spring projectile attack"},
+        {"name": "Spring Cannon", "description": "Fires a compressed spring as a cannon projectile"},
+        {"name": "Spring Emperor", "description": "A powerful coil-powered area-of-effect slam"},
+        {"name": "Spring Leap", "description": "Uses stored spring energy to leap a great distance"}
+      ],
+      "strengths": [
+        "Good mobility with the Spring Leap ability",
+        "Several ranged attack options"
+      ],
+      "weaknesses": [
+        "Low base damage compared to higher-rarity fruits",
+        "No elemental passive protection"
+      ],
+      "rankings": {"overall": "C"}
     },
+
     {
       "id": "bomb",
       "name": "Bomb",
       "type": "Natural",
       "rarity": "Common",
-      "icon_color": "#EF4444"
+      "icon_color": "#E17055",
+      "description": "A Common Natural fruit based on explosive attacks and area denial.",
+      "abilities": [
+        {"name": "Targeted Bomb", "description": "Deploys a tracking bomb that pursues the target"},
+        {"name": "Bomb Grab", "description": "Grabs enemies and detonates explosions nearby"},
+        {"name": "Land Mines", "description": "Places explosive mines on the ground"},
+        {"name": "Self Destruct", "description": "Triggers a powerful self-centered explosion"},
+        {"name": "Explosive Jump", "description": "Uses a downward explosion to launch the user upward"}
+      ],
+      "strengths": [
+        "Area-of-effect attacks useful for groups of enemies",
+        "Explosive Jump provides vertical mobility"
+      ],
+      "weaknesses": [
+        "Self-damage risk from Self Destruct",
+        "Limited single-target damage"
+      ],
+      "rankings": {"overall": "D"}
     },
-    {
-      "id": "smoke",
-      "name": "Smoke",
-      "type": "Elemental",
-      "rarity": "Common",
-      "icon_color": "#64748B"
-    },
+
     {
       "id": "spike",
       "name": "Spike",
       "type": "Natural",
       "rarity": "Common",
-      "icon_color": "#A855F7"
+      "icon_color": "#636E72",
+      "description": "A Common Natural fruit that summons ground spikes and spike projectiles.",
+      "abilities": [
+        {"name": "Spike Summon", "description": "Summons sharp spikes that emerge from the ground"},
+        {"name": "Whirlwind", "description": "Creates a damaging whirlwind of spikes"},
+        {"name": "Spiky Ball", "description": "Launches a large spiked projectile at enemies"},
+        {"name": "Spike Barrage", "description": "Fires a barrage of spike projectiles in rapid succession"}
+      ],
+      "strengths": [
+        "Ground-based area denial against melee enemies"
+      ],
+      "weaknesses": [
+        "Spikes are easy to avoid by flying enemies",
+        "No ranged spike attacks with good tracking"
+      ],
+      "rankings": {"overall": "D"}
+    },
+
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "type": "Natural",
+      "rarity": "Uncommon",
+      "icon_color": "#AEE1FF",
+      "description": "An Uncommon Natural fruit that encases the user in diamond armor and fires crystal shards.",
+      "abilities": [
+        {"name": "Encrust", "description": "Covers the user's body in a diamond armor layer"},
+        {"name": "Shard Storm", "description": "Launches a storm of sharp diamond shards at enemies"},
+        {"name": "Shimmering Disruption", "description": "Blinds and damages enemies with reflective diamond light"},
+        {"name": "Prismatic Reflection", "description": "A prismatic crystal ability that channels reflective diamond energy"}
+      ],
+      "strengths": [
+        "Diamond armor provides solid passive defense",
+        "Useful for tanking hits while dealing damage"
+      ],
+      "weaknesses": [
+        "Relatively low mobility",
+        "Outclassed by higher-rarity fruits in offense"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "rubber",
+      "name": "Rubber",
+      "type": "Natural",
+      "rarity": "Rare",
+      "icon_color": "#FDCB6E",
+      "description": "A Rare Natural fruit granting a rubber body with elastic-powered punches and a transformation mode.",
+      "abilities": [
+        {"name": "Cannon", "description": "Stretches the arm forward and fires it like a rubber cannon"},
+        {"name": "Smash", "description": "A powerful downward rubber fist slam"},
+        {"name": "Rush", "description": "A rapid rubber-powered charge into enemies"},
+        {"name": "Transformation", "description": "Activates a rubber-body transformation with enhanced stats"},
+        {"name": "Slingshot", "description": "Pulls the arm back and launches the user like a slingshot"}
+      ],
+      "strengths": [
+        "Rubber body provides natural physical resistance",
+        "Transformation mode significantly increases damage"
+      ],
+      "weaknesses": [
+        "Rubber body resistance has limitations against various damage types",
+        "Mobility is limited compared to Elemental fruits"
+      ],
+      "rankings": {"overall": "C"}
+    },
+
+    {
+      "id": "ghost",
+      "name": "Ghost",
+      "type": "Natural",
+      "rarity": "Rare",
+      "icon_color": "#B2BEC3",
+      "description": "A Rare Natural fruit with spectral and ghost-based attacks. Replaces the legacy Revive fruit.",
+      "abilities": [
+        {"name": "Shivering Possession", "description": "Channels ghostly energy toward nearby enemies"},
+        {"name": "Spectral Release", "description": "Releases a wave of damaging spectral energy"},
+        {"name": "Cries of the Underworld", "description": "Summons spectral entities that attack enemies"},
+        {"name": "Ghost Busters", "description": "Detonates a powerful ghost-energy area explosion"},
+        {"name": "Wandering Soul", "description": "Sends a wandering soul projectile that tracks enemies"}
+      ],
+      "strengths": [
+        "Spectral projectiles can pass through certain obstacles",
+        "Multiple ability options for varied playstyles"
+      ],
+      "weaknesses": [
+        "No defensive or mobility passive",
+        "Outclassed offensively by higher-rarity fruits"
+      ],
+      "rankings": {}
+    },
+
+    {
+      "id": "quake",
+      "name": "Quake",
+      "type": "Natural",
+      "rarity": "Legendary",
+      "icon_color": "#E17055",
+      "description": "A Legendary Natural fruit that generates powerful shockwaves and tsunamis. Widely used in PvP for its area-of-effect damage.",
+      "abilities": [
+        {"name": "Quake Punch", "description": "A punch that generates a powerful forward shockwave"},
+        {"name": "Quake Wave", "description": "Sends a ground-splitting seismic wave across the terrain"},
+        {"name": "Quake Erupt", "description": "Creates a massive earthquake eruption beneath enemies"},
+        {"name": "Dual Tsunami", "description": "Summons twin devastating tsunami waves"}
+      ],
+      "strengths": [
+        "High area-of-effect damage useful in both PvP and raids",
+        "Shockwave attacks can hit enemies through walls"
+      ],
+      "weaknesses": [
+        "No built-in flight ability",
+        "Attacks require close-to-medium range"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "love",
+      "name": "Love",
+      "type": "Natural",
+      "rarity": "Legendary",
+      "icon_color": "#FD79A8",
+      "description": "A Legendary Natural fruit with charming and attraction-based abilities. Includes a unique Flamingo Ride for travel.",
+      "abilities": [
+        {"name": "Heart Shot", "description": "Fires a heart-shaped projectile at the target"},
+        {"name": "Cupid's Zone", "description": "Creates a love-infused area zone that affects nearby enemies"},
+        {"name": "Irresistible Attraction", "description": "Pulls enemies toward the user with magnetic force"},
+        {"name": "Besto Friendo", "description": "An ability that temporarily changes an enemy's behavior"},
+        {"name": "Flamingo Ride", "description": "Summons a flamingo mount for travel and mobility"}
+      ],
+      "strengths": [
+        "Flamingo Ride provides good travel mobility",
+        "Unique crowd-control utility not found in other fruits"
+      ],
+      "weaknesses": [
+        "Limited burst damage compared to other Legendary fruits",
+        "Utility abilities less reliable in competitive PvP"
+      ],
+      "rankings": {"overall": "C"}
+    },
+
+    {
+      "id": "creation",
+      "name": "Creation",
+      "type": "Natural",
+      "rarity": "Legendary",
+      "icon_color": "#A29BFE",
+      "description": "A Legendary Natural fruit that conjures magical constructs for both offense and defense. Considered the replacement for the legacy Barrier fruit.",
+      "abilities": [
+        {"name": "Batter Up", "description": "Attacks enemies with a conjured magical bat"},
+        {"name": "Sleight of Hand", "description": "A rapid magical card-throw attack"},
+        {"name": "Sword Box", "description": "Conjures a box of magical swords that impale enemies"},
+        {"name": "Magic City", "description": "Creates a magical construct zone that affects enemies inside"},
+        {"name": "Fortify", "description": "Conjures magical defensive barriers"}
+      ],
+      "strengths": [
+        "Mix of offensive and defensive conjuration abilities",
+        "Magic City provides strong area control"
+      ],
+      "weaknesses": [
+        "Some abilities require precise placement",
+        "No high-speed mobility option"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "spider",
+      "name": "Spider",
+      "type": "Natural",
+      "rarity": "Legendary",
+      "icon_color": "#2D3436",
+      "description": "A Legendary Natural fruit with web-based attacks and string manipulation. Formerly named String.",
+      "abilities": [
+        {"name": "Spider Wraith", "description": "Fires damaging web-string projectiles at enemies"},
+        {"name": "Multi-string Attack", "description": "Launches multiple web strands simultaneously"},
+        {"name": "Over-heated Sniper", "description": "A long-range heated web sniper shot"},
+        {"name": "Ultimate Thread", "description": "A powerful web-based area attack"},
+        {"name": "Spider Path", "description": "Moves rapidly using web-based traversal"}
+      ],
+      "strengths": [
+        "Strong ranged and area-of-effect attacks",
+        "Spider Path provides good mobility"
+      ],
+      "weaknesses": [
+        "Web attacks can sometimes be dodged at range",
+        "No elemental passive protection"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "sound",
+      "name": "Sound",
+      "type": "Natural",
+      "rarity": "Legendary",
+      "icon_color": "#00CEC9",
+      "description": "A Legendary Natural fruit with music-themed attacks that deal damage through sound waves.",
+      "abilities": [
+        {"name": "Rhapsody Notes", "description": "Fires musical note projectiles at enemies"},
+        {"name": "Fortissimo", "description": "A powerful sound blast that deals area damage"},
+        {"name": "Symphonic Radiance", "description": "Emits a radiant sound wave in all directions"},
+        {"name": "Glorious Harmony", "description": "Channels sound energy into a devastating concentrated attack"},
+        {"name": "Tempo: Prestissimo", "description": "Greatly increases the user's movement speed"}
+      ],
+      "strengths": [
+        "Tempo: Prestissimo provides excellent mobility",
+        "Sound waves can hit enemies at range"
+      ],
+      "weaknesses": [
+        "Primarily offense-focused without defensive passives"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "portal",
+      "name": "Portal",
+      "type": "Natural",
+      "rarity": "Legendary",
+      "icon_color": "#6C5CE7",
+      "description": "A Legendary Natural fruit enabling dimensional portal travel and teleportation-based attacks. Replaces the legacy Door fruit.",
+      "abilities": [
+        {"name": "Portal Dash", "description": "Dashes instantly through a dimensional portal"},
+        {"name": "Parallel Escape", "description": "Creates an escape portal to teleport to safety"},
+        {"name": "World Warp", "description": "Teleports the user a long distance"},
+        {"name": "Dimensional Rift", "description": "Opens a rift that damages and traps enemies"},
+        {"name": "Quantum Leap", "description": "Performs a teleportation-based attack on enemies"}
+      ],
+      "strengths": [
+        "Excellent escape and repositioning capabilities",
+        "Dimensional Rift provides strong area control"
+      ],
+      "weaknesses": [
+        "Teleportation abilities have limited offensive damage",
+        "Some abilities require good timing to use effectively"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "pain",
+      "name": "Pain",
+      "type": "Natural",
+      "rarity": "Legendary",
+      "icon_color": "#D63031",
+      "description": "A Legendary Natural fruit channeling pain energy for hard-hitting attacks and sustained damage. Replaces the legacy Paw fruit.",
+      "abilities": [
+        {"name": "Fury Jab", "description": "Delivers pain-infused rapid jabs in quick succession"},
+        {"name": "Rage Release", "description": "Releases a burst of pain energy around the user"},
+        {"name": "Agony Nuke", "description": "Launches a devastating pain-energy explosion"},
+        {"name": "Torturing Pulse", "description": "Emits a pulse that deals continuous damage over time"},
+        {"name": "Torment Warp", "description": "Teleports to an enemy location using pain energy"}
+      ],
+      "strengths": [
+        "Torturing Pulse enables consistent damage over time",
+        "Torment Warp provides gap-closing capability"
+      ],
+      "weaknesses": [
+        "Many abilities require close range",
+        "No elemental body or defensive passive"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "gravity",
+      "name": "Gravity",
+      "type": "Natural",
+      "rarity": "Mythical",
+      "icon_color": "#6C5CE7",
+      "description": "A Mythical Natural fruit that manipulates gravitational forces to pull, trap, and crush enemies.",
+      "abilities": [
+        {"name": "Singularity", "description": "Creates a gravitational singularity that pulls enemies inward"},
+        {"name": "Orbital Chain", "description": "Chains gravitational force to multiple enemies simultaneously"},
+        {"name": "Gravitational Prison", "description": "Traps enemies in a gravity field"},
+        {"name": "Asteroid Crash", "description": "Drops a massive asteroid from above onto enemies"},
+        {"name": "Shooting Star", "description": "Propels the user at high speed like a shooting star"}
+      ],
+      "strengths": [
+        "Singularity and Gravitational Prison provide strong crowd control",
+        "Shooting Star enables fast repositioning"
+      ],
+      "weaknesses": [
+        "Gravity manipulation takes time to set up effectively",
+        "Less burst damage than top-tier offensive Mythicals"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "shadow",
+      "name": "Shadow",
+      "type": "Natural",
+      "rarity": "Mythical",
+      "icon_color": "#1E1E2E",
+      "description": "A Mythical Natural fruit granting control over shadows with high burst damage. Consistently ranked S-tier for overall play.",
+      "abilities": [
+        {"name": "Somber Rebellion", "description": "Launches dark shadow projectiles at high speed"},
+        {"name": "Shade Nest", "description": "Traps enemies in a web of shadow tendrils"},
+        {"name": "Nightmare Leech", "description": "Drains energy from enemies using shadow tendrils"},
+        {"name": "Corvus Torment", "description": "Summons shadow birds that assault the target"},
+        {"name": "Umbrage", "description": "Detonates a powerful shadow explosion dealing massive damage"}
+      ],
+      "strengths": [
+        "High burst damage output from multiple abilities",
+        "Shade Nest provides reliable crowd control",
+        "S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "No elemental body passive immunity",
+        "Requires skill to fully utilize all abilities"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "venom",
+      "name": "Venom",
+      "type": "Natural",
+      "rarity": "Mythical",
+      "icon_color": "#00B894",
+      "description": "A Mythical Natural fruit granting poison and venom-based attacks with a serpent transformation. Consistently rated S-tier.",
+      "abilities": [
+        {"name": "Poison Daggers", "description": "Throws venomous daggers that poison the target"},
+        {"name": "Noxious Shot", "description": "Fires a poisonous projectile at range"},
+        {"name": "Toxic Fog", "description": "Creates a lingering poison fog area"},
+        {"name": "Transformation", "description": "Activates a venom serpent transformation with enhanced capabilities"},
+        {"name": "Serpent's Wrath", "description": "Unleashes a powerful venom-infused combination attack"}
+      ],
+      "strengths": [
+        "Poison damage continues to tick after hits land",
+        "Transformation provides additional combat capability",
+        "Consistently S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "Poison effectiveness reduced against high-health enemies",
+        "No elemental body passive protection"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "spirit",
+      "name": "Spirit",
+      "type": "Natural",
+      "rarity": "Mythical",
+      "icon_color": "#A0CCF0",
+      "description": "A Mythical Natural fruit channeling spirit energy with Egyptian-mythology-themed abilities. Replaces the legacy Soul fruit.",
+      "abilities": [
+        {"name": "Frostfire Grasp", "description": "Attacks enemies with combined frost and fire spirit energy"},
+        {"name": "Wrath of Ra", "description": "Channels the spirit of Ra for a powerful radiant attack"},
+        {"name": "Wrath of Shu", "description": "Channels the spirit of Shu for a powerful wind attack"},
+        {"name": "End of Times", "description": "A devastating ultimate ability drawing on all spirit energy"},
+        {"name": "Sky Ruler", "description": "Grants flight using spirit energy"}
+      ],
+      "strengths": [
+        "Versatile attacks combining multiple elements",
+        "Sky Ruler provides flight capability",
+        "Consistently S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "Some high-damage abilities have significant cooldowns",
+        "No elemental body immunity"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "control",
+      "name": "Control",
+      "type": "Natural",
+      "rarity": "Mythical",
+      "icon_color": "#A29BFE",
+      "description": "A Mythical Natural fruit that manipulates space and matter with precise cutting attacks. One of the highest-priced Mythical fruits.",
+      "abilities": [
+        {"name": "Domain Control", "description": "Establishes a zone where the user exerts spatial control"},
+        {"name": "Slice N' Dice", "description": "Rapidly slices enemies using precise space manipulation"},
+        {"name": "Gamma Blade", "description": "Fires a powerful cutting gamma energy blade"},
+        {"name": "Transmutation", "description": "Rearranges matter to deal damage and create barriers"}
+      ],
+      "strengths": [
+        "Domain Control provides area superiority",
+        "Gamma Blade is a powerful long-range option",
+        "High damage ceiling for skilled players"
+      ],
+      "weaknesses": [
+        "Fewer abilities than many other Mythicals",
+        "Extremely high Beli cost limits accessibility"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "smoke",
+      "name": "Smoke",
+      "type": "Elemental",
+      "rarity": "Common",
+      "icon_color": "#636E72",
+      "description": "A Common Elemental (Logia) fruit granting a smoke body with basic smoke-based attacks. The most affordable Elemental fruit.",
+      "abilities": [
+        {"name": "Smoke Slam", "description": "Slams the ground with a smoke-infused impact"},
+        {"name": "Smoke Blast", "description": "Fires a concentrated blast of smoke at enemies"},
+        {"name": "Smoke Liberation", "description": "Releases a large cloud of damaging smoke around the user"},
+        {"name": "Smoke Bomber", "description": "Launches a smoke bomb projectile"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Most affordable Elemental fruit for beginners"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs",
+        "Low damage output compared to higher-rarity Elemental fruits"
+      ],
+      "rankings": {"overall": "C"}
+    },
+
+    {
+      "id": "flame",
+      "name": "Flame",
+      "type": "Elemental",
+      "rarity": "Uncommon",
+      "icon_color": "#E17055",
+      "description": "An Uncommon Elemental (Logia) fruit with fire-based attacks and flight. Strong performer in its rarity tier.",
+      "abilities": [
+        {"name": "Fire Bullets", "description": "Fires rapid fire bullet projectiles"},
+        {"name": "Burning Blast", "description": "Launches a large fire explosion"},
+        {"name": "Fire Column", "description": "Creates a rising pillar of fire beneath enemies"},
+        {"name": "Flame Destroyer", "description": "A wide-range devastating fire attack"},
+        {"name": "Fire Flight", "description": "Uses fire propulsion to achieve flight"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Fire Flight provides excellent mobility",
+        "Strong area damage with Flame Destroyer"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "ice",
+      "name": "Ice",
+      "type": "Elemental",
+      "rarity": "Uncommon",
+      "icon_color": "#74B9FF",
+      "description": "An Uncommon Elemental (Logia) fruit that freezes enemies and terrain. Includes a powerful area-freeze ability.",
+      "abilities": [
+        {"name": "Ice Spears", "description": "Summons and launches sharp ice spear projectiles"},
+        {"name": "Ice Surge", "description": "Surges forward in a wave of ice"},
+        {"name": "Ice Bird", "description": "Launches a large ice bird projectile that freezes on impact"},
+        {"name": "Glacial Epoch", "description": "Freezes a wide area of terrain and enemies"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Glacial Epoch is a powerful crowd-freeze tool"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs",
+        "Fewer mobility options than other Elemental fruits"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "sand",
+      "name": "Sand",
+      "type": "Elemental",
+      "rarity": "Uncommon",
+      "icon_color": "#FDCB6E",
+      "description": "An Uncommon Elemental (Logia) fruit with desert-themed attacks including sand burial and tornado.",
+      "abilities": [
+        {"name": "Desert Sword", "description": "Attacks with a blade formed from compressed sand"},
+        {"name": "Desert Funeral", "description": "Buries enemies under massive amounts of desert sand"},
+        {"name": "Sand Tornado", "description": "Creates a destructive sand tornado"},
+        {"name": "Heavy Sand", "description": "Drops concentrated dense sand on enemies"},
+        {"name": "Sand Flight", "description": "Glides on a hovering sand platform"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Sand Flight provides travel mobility",
+        "Desert Funeral has good stun potential"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs",
+        "Sand attacks can be harder to land at long range"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "dark",
+      "name": "Dark",
+      "type": "Elemental",
+      "rarity": "Uncommon",
+      "icon_color": "#2D3436",
+      "description": "An Uncommon Elemental (Logia) fruit with gravity-void and black hole abilities. Widely considered the strongest Uncommon fruit and S-tier overall.",
+      "abilities": [
+        {"name": "Dark Rocks", "description": "Launches dark matter projectiles at enemies"},
+        {"name": "Black Spiral", "description": "Creates a spiraling void that pulls enemies inward"},
+        {"name": "Black Hole", "description": "Opens a black hole that pulls nearby enemies inward"},
+        {"name": "Dark Bomb", "description": "Detonates a powerful dark matter explosive"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Black Hole provides exceptional crowd control",
+        "Consistently rated S-tier — strongest Uncommon Elemental fruit"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs",
+        "Fewer abilities than Legendary/Mythical Elemental fruits"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "light",
+      "name": "Light",
+      "type": "Elemental",
+      "rarity": "Rare",
+      "icon_color": "#FFEAA7",
+      "description": "A Rare Elemental (Logia) fruit with light-speed attacks and the fastest flight in the game. Popular for travel and early grinding.",
+      "abilities": [
+        {"name": "Light Ray", "description": "Fires a high-speed beam of light at enemies"},
+        {"name": "Barrage of Light", "description": "Launches multiple light beams simultaneously"},
+        {"name": "Reflection Kick", "description": "A kick delivered at light speed"},
+        {"name": "Sky Beam Barrage", "description": "Drops a barrage of light beams from above"},
+        {"name": "Light Flight", "description": "Achieves extremely fast flight at light speed"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Light Flight is one of the fastest travel methods in the game",
+        "High-speed attacks are difficult to dodge"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs",
+        "Less burst damage than top-tier Mythical Elementals"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "magma",
+      "name": "Magma",
+      "type": "Elemental",
+      "rarity": "Rare",
+      "icon_color": "#D63031",
+      "description": "A Rare Elemental (Logia) fruit with powerful molten-rock attacks and high damage output.",
+      "abilities": [
+        {"name": "Magma Clap", "description": "Claps both hands together coated in magma"},
+        {"name": "Magma Eruption", "description": "Creates an eruption of molten rock from beneath enemies"},
+        {"name": "Magma Fist", "description": "Delivers a powerful magma-coated punch"},
+        {"name": "Magma Meteors", "description": "Rains down multiple molten rock meteors"},
+        {"name": "Magma Floor", "description": "Covers the nearby ground with a damaging lava floor"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "High damage across all abilities",
+        "Magma Floor provides consistent area damage"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs",
+        "Slower attack speed compared to Light"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "lightning",
+      "name": "Lightning",
+      "type": "Elemental",
+      "rarity": "Legendary",
+      "icon_color": "#FDCB6E",
+      "description": "A Legendary Elemental (Logia) fruit with thunderstorm and electric-speed attacks. Formerly named Rumble.",
+      "abilities": [
+        {"name": "Lightning Orb", "description": "Fires an orb of condensed lightning energy"},
+        {"name": "Thunderstorm", "description": "Summons a lightning-filled thunderstorm over an area"},
+        {"name": "Sky Judgement", "description": "Calls down a single devastating lightning bolt from the sky"},
+        {"name": "Thunderball Destruction", "description": "Launches a massive ball of destructive electrical energy"},
+        {"name": "Electric Flash", "description": "Teleports instantly using electric speed"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Electric Flash provides instant teleportation mobility",
+        "Thunderstorm enables wide area coverage"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "blizzard",
+      "name": "Blizzard",
+      "type": "Elemental",
+      "rarity": "Legendary",
+      "icon_color": "#A0CCF0",
+      "description": "A Legendary Elemental (Logia) fruit with blizzard and ice-storm attacks. Considered S-tier among Elemental fruits.",
+      "abilities": [
+        {"name": "Snowflake Shuriken", "description": "Throws razor-sharp snowflake projectiles"},
+        {"name": "White Out", "description": "Creates a blinding blizzard condition in an area"},
+        {"name": "Howling Wind", "description": "Summons a damaging howling blizzard wind"},
+        {"name": "Blizzard Domain", "description": "Establishes a zone of intense blizzard that damages all enemies inside"},
+        {"name": "Tornado Flight", "description": "Flies using a tornado of blizzard winds"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Blizzard Domain provides powerful area denial",
+        "White Out can disorient enemies",
+        "S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "dough",
+      "name": "Dough",
+      "type": "Elemental",
+      "rarity": "Mythical",
+      "icon_color": "#FAB1A0",
+      "description": "A Mythical Elemental (Logia) fruit with dough and pastry-themed attacks. One of the most consistent S-tier fruits.",
+      "abilities": [
+        {"name": "Missile Jab", "description": "A dough-infused forward jab delivered with explosive force"},
+        {"name": "Pastry River", "description": "Launches a flowing river of dough at enemies"},
+        {"name": "Piercing Clothesline", "description": "A high-speed horizontal dough clothesline that pierces through enemies"},
+        {"name": "Dough Fist Fusillade", "description": "A rapid barrage of dough-coated punches"},
+        {"name": "Scorching Donut", "description": "Launches an overheated dough ring with explosive impact"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Extremely high offensive damage output",
+        "Consistently S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs",
+        "Very high Beli acquisition cost"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "gas",
+      "name": "Gas",
+      "type": "Elemental",
+      "rarity": "Mythical",
+      "icon_color": "#55EFC4",
+      "description": "A Mythical Elemental (Logia) fruit with toxic gas and fume-based attacks. S-tier and one of the newest high-end Elemental options.",
+      "abilities": [
+        {"name": "Suffocating Fumes", "description": "Releases toxic fumes that continuously damage enemies"},
+        {"name": "Bursting Vapor", "description": "Creates a pressurized gas burst explosion"},
+        {"name": "Smog Demons", "description": "Summons entities made of smog to attack enemies"},
+        {"name": "Vapor Condensation", "description": "Condenses gas into a high-pressure impact"},
+        {"name": "Traveling Gas", "description": "Moves rapidly by dispersing as a gas cloud"}
+      ],
+      "strengths": [
+        "Elemental body passively deflects attacks from players who have not activated Enhancement Haki (Aura)",
+        "Toxic gas damage ticks continuously after contact",
+        "Traveling Gas provides unique travel capability",
+        "S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "Elemental body is bypassed by Enhancement Haki (Aura) and by higher-level NPCs",
+        "Poison-over-time less effective against fast-healing enemies"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "eagle",
+      "name": "Eagle",
+      "type": "Beast",
+      "rarity": "Uncommon",
+      "icon_color": "#E17055",
+      "description": "An Uncommon Beast fruit with eagle transformation and wind-based attacks. A strong pick for its rarity tier, rated A-tier overall.",
+      "abilities": [
+        {"name": "Wind Burst", "description": "Fires a burst of compressed wind at enemies"},
+        {"name": "Feather Storm", "description": "Launches a storm of razor-sharp feathers"},
+        {"name": "Bone Crusher", "description": "A powerful eagle talon diving slam"},
+        {"name": "Soaring Talon", "description": "Dives at enemies with powerful talons"},
+        {"name": "Flight", "description": "Transforms partially to fly at speed"}
+      ],
+      "strengths": [
+        "Strong for an Uncommon fruit; rated A-tier overall",
+        "Flight built in at Uncommon rarity"
+      ],
+      "weaknesses": [
+        "Large bird hitbox in transformation mode",
+        "Outclassed by Legendary and Mythical Beast fruits in damage"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "buddha",
+      "name": "Buddha",
+      "type": "Beast",
+      "rarity": "Legendary",
+      "icon_color": "#FDCB6E",
+      "description": "A Legendary Beast fruit granting a massive golden Buddha transformation. Very popular for farming and raid grinding due to its large AoE hitbox.",
+      "abilities": [
+        {"name": "Transform", "description": "Transforms into the giant golden Buddha form with greatly expanded reach"},
+        {"name": "Impact", "description": "Delivers a powerful Buddha-enhanced ground impact"},
+        {"name": "Buddha Leap", "description": "Leaps to a location with the force of a golden giant"},
+        {"name": "Buddha Explosion", "description": "Detonates a sphere of Buddha energy"}
+      ],
+      "strengths": [
+        "Transformation's large hitbox makes farming extremely efficient",
+        "Simple to learn and use effectively",
+        "Well-suited for Sea Beasts and raid grinding"
+      ],
+      "weaknesses": [
+        "Large transformed hitbox makes the user an easy target in PvP",
+        "Limited mobility options"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "type": "Beast",
+      "rarity": "Legendary",
+      "icon_color": "#E17055",
+      "description": "A Legendary Beast fruit with phoenix fire transformation and regenerative flames. Excellent for sustained combat.",
+      "abilities": [
+        {"name": "Cannon", "description": "Fires a phoenix fire cannon projectile"},
+        {"name": "Regeneration Flames", "description": "Surrounds the user in phoenix flames that provide healing over time"},
+        {"name": "Fast Kick", "description": "A rapid phoenix-powered kick"},
+        {"name": "Full Transformation", "description": "Fully transforms into the phoenix bird form"},
+        {"name": "Hybrid Flight", "description": "Flies in a partial phoenix transformation for mobility"}
+      ],
+      "strengths": [
+        "Regeneration Flames provide passive healing mid-combat",
+        "Good mobility with Hybrid Flight",
+        "A-tier in community rankings"
+      ],
+      "weaknesses": [
+        "Healing less effective when overwhelmed by high-damage opponents"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "mammoth",
+      "name": "Mammoth",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#A0A4A8",
+      "description": "A Mythical Beast fruit granting a massive prehistoric mammoth transformation with high raw power.",
+      "abilities": [
+        {"name": "Ancient Cutter", "description": "Attacks enemies with enormous mammoth tusks"},
+        {"name": "True Prehistoric Punt", "description": "A powerful punt kick with prehistoric beast strength"},
+        {"name": "Colossal Crusher", "description": "Delivers a crushing full-body slam"},
+        {"name": "Transformation", "description": "Transforms into the giant mammoth form"},
+        {"name": "Stampede", "description": "Charges forward in a devastating mammoth stampede"}
+      ],
+      "strengths": [
+        "Very high physical damage in transformation",
+        "Stampede is effective for both offense and mobility",
+        "A-tier in community rankings"
+      ],
+      "weaknesses": [
+        "Large mammoth hitbox makes the user easy to hit",
+        "Limited ranged attack options"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "t-rex",
+      "name": "T-Rex",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#6C5CE7",
+      "description": "A Mythical Beast fruit granting a T-Rex dinosaur transformation with powerful physical attacks.",
+      "abilities": [
+        {"name": "Tail Swipe", "description": "Swipes the massive dinosaur tail in a wide arc"},
+        {"name": "Predatory Screech", "description": "Releases a powerful screech that stuns nearby enemies"},
+        {"name": "Hunter's Rage", "description": "Unleashes primal predator rage for enhanced attacks"},
+        {"name": "Reptilian Scales", "description": "Activates hardened scale defense"},
+        {"name": "Gigantic Leap", "description": "Leaps a great distance using dinosaur leg strength"}
+      ],
+      "strengths": [
+        "Reptilian Scales provides passive damage reduction",
+        "Powerful melee damage in T-Rex form"
+      ],
+      "weaknesses": [
+        "Very large T-Rex hitbox in transformation",
+        "Limited ranged options"
+      ],
+      "rankings": {"overall": "B"}
+    },
+
+    {
+      "id": "tiger",
+      "name": "Tiger",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#FDCB6E",
+      "description": "A Mythical Beast fruit granting a tiger transformation with extreme speed and precision attacks. S-tier and the top-ranked Beast fruit. Replaces the legacy Leopard fruit.",
+      "abilities": [
+        {"name": "Finger Revolver", "description": "Fires rapid precision projectiles like a revolver"},
+        {"name": "Spiraling Kick", "description": "A spinning tiger-powered kick"},
+        {"name": "Afterimage Assault", "description": "Moves at high speed while attacking, creating afterimages"},
+        {"name": "Transformation", "description": "Transforms into the tiger form with enhanced speed and power"},
+        {"name": "Body Flicker", "description": "Teleports instantly to enemy locations at blinding speed"}
+      ],
+      "strengths": [
+        "Body Flicker provides exceptional gap-closing capability",
+        "Afterimage Assault is difficult to evade",
+        "Top-ranked Beast fruit in community tier lists"
+      ],
+      "weaknesses": [
+        "High Beli cost limits early-game access",
+        "Requires good timing to maximize Body Flicker"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "yeti",
+      "name": "Yeti",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#AEE1FF",
+      "description": "A Mythical Beast fruit granting a powerful yeti transformation with ice and frost abilities.",
+      "abilities": [
+        {"name": "Arctic Clap", "description": "Claps with ice-cold yeti force, generating a frost shockwave"},
+        {"name": "Frostbite Boulder", "description": "Throws a massive frozen boulder at enemies"},
+        {"name": "Glacial Execution", "description": "Delivers a devastating ice-powered execution strike"},
+        {"name": "Transformation", "description": "Transforms into the massive yeti form"},
+        {"name": "Tundra Rush", "description": "Charges through enemies in a powerful frozen rush"}
+      ],
+      "strengths": [
+        "High physical damage in yeti transformation",
+        "Frostbite Boulder is a strong ranged option for a Beast fruit",
+        "A-tier in community rankings"
+      ],
+      "weaknesses": [
+        "Large yeti hitbox in transformation",
+        "Somewhat slower than Tiger at the same tier"
+      ],
+      "rankings": {"overall": "A"}
+    },
+
+    {
+      "id": "kitsune",
+      "name": "Kitsune",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#FD79A8",
+      "description": "A Mythical Beast fruit granting a fox spirit (kitsune) transformation with cursed fire abilities. S-tier and one of the highest-priced Beast fruits.",
+      "abilities": [
+        {"name": "Accursed Enchantment", "description": "Casts a cursed enchantment that debilitates the target"},
+        {"name": "Tails of Burning Agony", "description": "Strikes with multiple burning fox tails simultaneously"},
+        {"name": "Fox Fire Disruption", "description": "Creates fox fire that disrupts and disorients enemies"},
+        {"name": "Transformation", "description": "Transforms into the multi-tailed kitsune spirit form"},
+        {"name": "Wild Assault", "description": "A rapid and relentless multi-hit assault"}
+      ],
+      "strengths": [
+        "Fox Fire Disruption creates strong offensive pressure",
+        "Wild Assault deals rapid successive hits",
+        "S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "Very high acquisition cost",
+        "Requires good mastery of the transformation to play effectively"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#D63031",
+      "description": "A Mythical Beast fruit granting a powerful dragon transformation with fire-based attacks. The most expensive fruit available from the Blox Fruit Dealer.",
+      "abilities": [
+        {"name": "Heatwave Cannon", "description": "Fires a devastating heatwave cannon blast at long range"},
+        {"name": "Infernal Pincer", "description": "Grabs and crushes enemies with fiery dragon claws"},
+        {"name": "Scorching Downfall", "description": "Drops concentrated fire from above onto enemies"},
+        {"name": "Imperial Evolution", "description": "Achieves an evolved dragon form with significantly enhanced power"},
+        {"name": "Draconic Soar", "description": "Soars through the air at high speed in dragon form"}
+      ],
+      "strengths": [
+        "Extremely high damage across all abilities",
+        "Imperial Evolution dramatically increases combat power",
+        "Draconic Soar provides fast flight mobility",
+        "S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "The most expensive fruit in the game",
+        "Large dragon hitbox in transformation mode"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "empyrean",
+      "mutation_of": "kitsune",
+      "name": "Empyrean",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#6C5CE7",
+      "description": "A Mythical Beast mutation variant of Kitsune with a distinct visual appearance. Community tier rankings place it at S-tier alongside its base form.",
+      "abilities": [],
+      "strengths": [
+        "Mutation variant of S-tier Kitsune with distinct visual appearance"
+      ],
+      "weaknesses": [
+        "Specific ability differences from base Kitsune not verified from current sources"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "fiend",
+      "mutation_of": "yeti",
+      "name": "Fiend",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#2D3436",
+      "description": "A Mythical Beast mutation variant of Yeti with a distinct visual appearance. Community tier rankings place it at S-tier, above the base Yeti form.",
+      "abilities": [],
+      "strengths": [
+        "Mutation variant of Yeti with distinct visual appearance",
+        "S-tier in community tier lists"
+      ],
+      "weaknesses": [
+        "Specific ability differences from base Yeti not verified from current sources"
+      ],
+      "rankings": {"overall": "S"}
+    },
+
+    {
+      "id": "werewolf",
+      "mutation_of": "tiger",
+      "name": "Werewolf",
+      "type": "Beast",
+      "rarity": "Mythical",
+      "icon_color": "#A0A4A8",
+      "description": "A Mythical Beast mutation variant of Tiger with a distinct visual appearance. Community tier rankings place it at S-tier alongside its base form.",
+      "abilities": [],
+      "strengths": [
+        "Mutation variant of S-tier Tiger with distinct visual appearance"
+      ],
+      "weaknesses": [
+        "Specific ability differences from base Tiger not verified from current sources"
+      ],
+      "rankings": {"overall": "S"}
     }
+
   ]
 }
