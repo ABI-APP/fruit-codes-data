@@ -1,13 +1,81 @@
-
 {
+  "schema_version": 1,
   "last_updated": "2026-10-11",
   "active_codes": [
     {
       "code": "EASTEREXP",
-      "reward": "20 minutes of 2x EXP"
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "Sub2Fer999",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "Enyu_is_Pro",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "JCWK",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "StarcodeHEO",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "MagicBUS",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "KittGaming",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "Sub2CaptainMaui",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "Sub2OfficialNoobie",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "TheGreatAce",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "Sub2NoobMaster123",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "Sub2Daigrock",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "Axiore",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "StrawHatMaine",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "TantaiGaming",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "Bluxxy",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "SUB2GAMERROBOT_EXP1",
+      "reward": "30 minutes of 2x Experience"
     },
     {
       "code": "KITT_RESET",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "Sub2UncleKizaru",
       "reward": "Free Stat Reset"
     },
     {
@@ -15,13 +83,222 @@
       "reward": "Free Stat Reset"
     },
     {
-      "code": "BIGNEWS",
-      "reward": "Big News in-game title"
+      "code": "fudd10",
+      "reward": "$1"
     },
     {
-      "code": "fudd10",
-      "reward": "1 Beli"
+      "code": "fudd10_V2",
+      "reward": "$2"
+    },
+    {
+      "code": "Chandler",
+      "reward": "$0"
+    },
+    {
+      "code": "BIGNEWS",
+      "reward": "Unlocks the Big News title. Redeem in the First Sea; title granted on first entry to the Second Sea."
     }
   ],
-  "expired_codes": []
+  "expired_codes": [
+    {
+      "code": "ADMINFIGHT",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "GIFTING_HOURS",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "EARN_FRUITS",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "FIGHT4FRUIT",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "NOEXPLOITER",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "NOOB2ADMIN",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "CODESLIDE",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "ADMINDARES",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "fruitconcepts",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "krazydares",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "TRIPLEABUSE",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "SEATROLLING",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "24NOADMIN",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "REWARDFUN",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "NEWTROLL",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "SECRET_ADMIN",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "ADMIN_TROLL",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "youtuber_shipbattle",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "STAFFBATTLE",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "ADMIN_STRENGTH",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "DRAGONABUSE",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "NOOB2PRO",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "CINCODEMAYO_BOOST",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "CODE_SERVICIO",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "DEVSCOOKING",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "TY_FOR_WATCHING",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "GAMERROBOT_YT",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "2BILLION",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "UPD14",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "UPD15",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "UPD16",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "ShutDownFix2",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "XmasExp",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "NOMOREHACK",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "BANEXPLOIT",
+      "reward": "20 minutes of 2x Experience"
+    },
+    {
+      "code": "ADMINHACKED",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "JULYUPDATE_RESET",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "Noob_Refund",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "RESET_5B",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "1MLIKES_RESET",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "THIRDSEA",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "Update10",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "XmasReset",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "PointsReset",
+      "reward": "Free Stat Reset"
+    },
+    {
+      "code": "EXP_5B",
+      "reward": "30 minutes of 2x Experience"
+    },
+    {
+      "code": "3BVISITS",
+      "reward": "30 minutes of 2x Experience"
+    },
+    {
+      "code": "Update11",
+      "reward": "30 minutes of 2x Experience"
+    },
+    {
+      "code": "GAMER_ROBOT_1M",
+      "reward": "1 hour 30 minutes of 2x Experience"
+    },
+    {
+      "code": "1BILLION",
+      "reward": "2 hours of 2x Experience"
+    },
+    {
+      "code": "Control",
+      "reward": "15 minutes of 2x Experience"
+    }
+  ]
 }
