@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-10-11",
+  "_source_note": "CANDIDATE — review before publishing. All content is original, based on established community knowledge.",
+  "guides": [
+    {
+      "id": "leveling-guide",
+      "title": "Leveling Guide",
+      "category": "Leveling",
+      "summary": "Discover where to grind, which enemies to defeat, and how to level up efficiently from Level 1 to 3000.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["leveling", "grinding", "experience", "tips", "first-sea", "second-sea", "third-sea"],
+      "content": "A complete leveling route from Level 1 to 3000 across all three seas. Use the section tabs above to navigate each stage of your journey.",
+      "sections": [
+        {
+          "id": "before-starting",
+          "title": "Before Starting",
+          "sea": "intro",
+          "description": "A few strategies and habits that apply throughout the entire leveling journey.",
+          "cards": [
+            {
+              "id": "intro-grinding-fruits",
+              "location": "Recommended Grinding Fruits",
+              "target": "Buddha, Elemental fruits",
+              "strategy": "Buddha is widely considered the best grinding fruit because its transformation dramatically increases your attack range, letting you hit large groups of enemies at once. Both awakened and unawakened forms are useful, though awakening (available via Second Sea raids) gives a significant advantage. Elemental fruits such as Light are especially effective in the First Sea because their body immunity passively deflects attacks from enemies that lack Enhancement Haki. This means you take much less damage while farming. No single fruit is best in every situation — choose based on what is available and what your current sea demands.",
+              "tips": [
+                "Buddha's awakening is tied to raid participation, which becomes available in the Second Sea.",
+                "Elemental body immunity only works against enemies or players who have not activated Enhancement Haki."
+              ]
+            },
+            {
+              "id": "intro-exp-codes",
+              "location": "Using 2x EXP Codes",
+              "target": "Boost codes",
+              "strategy": "Redeeming experience boost codes speeds up leveling noticeably. Use them strategically rather than all at once — activate a boost right before a focused grinding session so the timer does not run down while you are in menus or doing other activities. Saving some codes for the Third Sea is often recommended because grinding there is slower and each boost has more impact. Check the Codes tab in this app for currently active codes.",
+              "tips": [
+                "Boost timers continue even when you are logged out or navigating menus — redeem just before you start grinding.",
+                "Codes can be found in the Codes section of this app."
+              ]
+            },
+            {
+              "id": "intro-efficiency",
+              "location": "Efficiency Tips",
+              "target": "General habits",
+              "strategy": "A few habits make a measurable difference in grinding speed. Always accept a quest before farming — quest completion awards substantially more experience than raw kills. Use area-of-effect abilities to clear grouped enemies rather than fighting them one at a time. Avoid abilities that scatter enemies far apart, since chasing them wastes time. For bosses, use the environment to your advantage: pillars, terrain edges, and spawn locations can limit a boss's movement and make its attacks easier to dodge. Changing servers to find a boss that has already respawned (sometimes called boss hopping) can significantly reduce wait time.",
+              "tips": [
+                "Quest completion experience is much higher than kill experience alone — always have a quest active.",
+                "Boss hopping means switching to a different server where the boss has already respawned."
+              ]
+            },
+            {
+              "id": "intro-pvp-note",
+              "location": "PvP During Leveling",
+              "target": "Optional",
+              "strategy": "PvP is not an efficient leveling method. Focus on quests, boss farming, and grinding NPC enemies for your fastest route to max level. PvP is best reserved for after you have competitive stats and gear. While leveling, avoiding player conflict lets you grind without interruption.",
+              "tips": []
+            }
+          ]
+        },
+        {
+          "id": "first-sea",
+          "title": "First Sea",
+          "sea": "first",
+          "description": "The First Sea covers Level 1 to 775. Access to the Second Sea unlocks at Level 700, but this route recommends staying until 775 for a stronger start.",
+          "cards": [
+            {
+              "id": "fs-lv1-10",
+              "min_level": 1,
+              "max_level": 10,
+              "location": "Starting Island",
+              "target": "Bandits",
+              "strategy": "Choose the Pirate faction when creating your character. Defeat Bandits around the Starting Island until you reach Level 10. This takes only a few minutes. Collect treasure chests around the island for early Beli.",
+              "tips": [
+                "Chest collecting early on provides Beli for ability and upgrade purchases later."
+              ]
+            },
+            {
+              "id": "fs-lv10-55",
+              "min_level": 10,
+              "max_level": 55,
+              "location": "Fountain City",
+              "target": "Galley Pirates",
+              "strategy": "Travel to Fountain City and accept quests from the quest giver there. Position yourself near a wall where Galley Pirates spawn close together, then defeat them in groups. This area is faster than the Jungle route that normal progression suggests at this level range.",
+              "tips": [
+                "Skip the Jungle — Fountain City is more efficient for these levels.",
+                "A high-level friend can help you clear this area faster if you are struggling."
+              ]
+            },
+            {
+              "id": "fs-lv55-90",
+              "min_level": 55,
+              "max_level": 90,
+              "location": "Pirate Village",
+              "target": "Chef (Boss)",
+              "strategy": "Travel to Pirate Village and repeatedly defeat the Chef boss. Boss quests here give solid experience. Use server hopping to find the boss already spawned and reduce time between encounters.",
+              "tips": [
+                "Skip the Desert area — Pirate Village boss farming is more efficient at this stage.",
+                "Switch servers if the boss has a long respawn wait."
+              ]
+            },
+            {
+              "id": "fs-lv90-95",
+              "min_level": 90,
+              "max_level": 95,
+              "location": "Frozen Village",
+              "target": "Ability Teacher (NPC)",
+              "strategy": "Travel to Frozen Village and find the Ability Teacher NPC inside the ice cave. Complete the associated objective to progress. This unlocks access to fundamental combat abilities. Enhancement Haki (Aura) and some fighting styles can also be acquired from teachers in this area.",
+              "tips": [
+                "Enhancement Haki is unlocked here using Fragments or Beli — it is an important combat tool.",
+                "Air Jump, Electric, and Water Kung Fu fighting styles may be available in the First Sea — check teachers for current requirements."
+              ],
+              "verification_note": "The exact quest name, NPC dialogue, and whether this activity currently grants five levels of experience should be confirmed against the current game version."
+            },
+            {
+              "id": "fs-lv95-105",
+              "min_level": 95,
+              "max_level": 105,
+              "location": "Frozen Village",
+              "target": "Snow Bandits",
+              "strategy": "Stay in Frozen Village and grind Snow Bandits with quests until Level 105. These enemies are straightforward and the area is safe.",
+              "tips": []
+            },
+            {
+              "id": "fs-lv105-130",
+              "min_level": 105,
+              "max_level": 130,
+              "location": "Frozen Village",
+              "target": "Yeti (Boss)",
+              "strategy": "Repeatedly defeat the Yeti boss in Frozen Village. Learn to dodge or avoid its high-damage moves by paying attention to its attack animations. Use server hopping if the spawn wait is long.",
+              "tips": [
+                "Yeti's heavy attacks deal significant damage — stay mobile and avoid standing directly in front of it.",
+                "Boss hopping reduces downtime between encounters."
+              ]
+            },
+            {
+              "id": "fs-lv130-135",
+              "min_level": 130,
+              "max_level": 135,
+              "location": "Marine Fortress",
+              "target": "Island Secret (NPC activity)",
+              "strategy": "Look for the Island Secret NPC or activity at Marine Fortress. Completing it rewards experience and potentially a cosmetic item.",
+              "tips": [],
+              "verification_note": "The NPC name, whether it is currently accessible, its exact experience reward, and the reported Black Cape reward should be confirmed against the current game version."
+            },
+            {
+              "id": "fs-lv135-220",
+              "min_level": 135,
+              "max_level": 220,
+              "location": "Marine Fortress",
+              "target": "Vice Admiral (Boss)",
+              "strategy": "Repeatedly defeat the Vice Admiral boss for a long, efficient grinding stretch. Use server hopping to maintain pace. Around Level 150, consider a side visit to Lower Skylands for an additional quest and possibly the Electric fighting style.",
+              "tips": [
+                "Vice Admiral can be soloed efficiently once you know its attack patterns.",
+                "Lower Skylands (around Level 150) has a Missing Lightning Bolt activity — confirm current requirements before making the trip."
+              ],
+              "verification_note": "Lower Skylands quest requirements and Electric fighting style acquisition should be verified against the current game version."
+            },
+            {
+              "id": "fs-lv220-225",
+              "min_level": 220,
+              "max_level": 225,
+              "location": "Prison",
+              "target": "Mysterious Key (Quest)",
+              "strategy": "Complete the Mysterious Key quest at the Prison. This short activity reportedly rewards experience and a cosmetic item.",
+              "tips": [],
+              "verification_note": "Confirm that the Mysterious Key quest, its reward (reported as Megalo's Coat), and its experience grant are current."
+            },
+            {
+              "id": "fs-lv225-300",
+              "min_level": 225,
+              "max_level": 300,
+              "location": "Prison",
+              "target": "Ruthless Prisoners",
+              "strategy": "Grind Ruthless Prisoners with quests from Level 225 to 300. This is more efficient than the Colosseum route that normal island progression might suggest. If you have an Elemental fruit, its body immunity can still be useful against some enemies here.",
+              "tips": [
+                "Skip the Colosseum route — Ruthless Prisoners give better experience at this range."
+              ]
+            },
+            {
+              "id": "fs-lv300-375",
+              "min_level": 300,
+              "max_level": 375,
+              "location": "Magma Village",
+              "target": "Military Soldiers",
+              "strategy": "Grind Military Soldiers at Magma Village with quests from Level 300 to 375. Elemental immunity is still helpful if your fruit qualifies.",
+              "tips": []
+            },
+            {
+              "id": "fs-lv375-380",
+              "min_level": 375,
+              "max_level": 380,
+              "location": "Underwater City",
+              "target": "Scattered Light (Quest activity)",
+              "strategy": "Complete the Scattered Light quest at Underwater City. This activity may also provide access to the Water Kung Fu fighting style.",
+              "tips": [],
+              "verification_note": "Confirm the current quest name, NPC, any experience reward, and Water Kung Fu acquisition requirements."
+            },
+            {
+              "id": "fs-lv380-425",
+              "min_level": 380,
+              "max_level": 425,
+              "location": "Underwater City",
+              "target": "Fishman Warriors → Fishman Commandos",
+              "strategy": "Start grinding Fishman Warriors from Level 380. Around Level 400, switch to Fishman Commandos and continue through Level 425. If you are using an Elemental fruit, the switch point may be closer to Level 406 depending on your immunity effectiveness against these enemies.",
+              "tips": [
+                "Use the quest giver at each transition to maximise experience.",
+                "Elemental immunity may still apply against some enemies in this area."
+              ]
+            },
+            {
+              "id": "fs-lv425-500",
+              "min_level": 425,
+              "max_level": 500,
+              "location": "Underwater City",
+              "target": "Fishman Lord (Boss)",
+              "strategy": "Repeatedly defeat the Fishman Lord boss. The pillars scattered around the arena provide cover and can break the boss's line of sight, making the encounter significantly easier.",
+              "tips": [
+                "If the boss is too difficult at Level 425, continue with Fishman Commandos until 435–440 first.",
+                "Positioning behind pillars avoids several of the boss's attacks."
+              ]
+            },
+            {
+              "id": "fs-lv500-775",
+              "min_level": 500,
+              "max_level": 775,
+              "location": "Upper Skylands",
+              "target": "Sky Warlord (Boss)",
+              "strategy": "Farm the Sky Warlord boss at Upper Skylands from Level 500 through 775. This intentionally extends your First Sea stay well past the Level 700 Second Sea unlock threshold. Careful terrain positioning makes the encounters manageable even at lower power levels. Reaching 775 here gives you a stronger start in Second Sea.",
+              "tips": [
+                "The Second Sea unlocks at Level 700, but staying until 775 is the recommended approach for this route.",
+                "Use server hopping to reduce time between boss spawns."
+              ],
+              "alternative": "You may choose to enter the Second Sea at Level 700 if you prefer to start the new content earlier, though this route recommends 775 for a stronger foundation.",
+              "verification_note": "Whether farming Sky Warlord through Level 775 remains the most efficient current approach versus transitioning at 700 should be confirmed against the current game version."
+            }
+          ]
+        },
+        {
+          "id": "second-sea",
+          "title": "Second Sea",
+          "sea": "second",
+          "description": "The Second Sea unlocks at Level 700 via a quest from the Military Detective NPC. This route arrives at 775 after the First Sea Sky Warlord farming phase. Awakened Buddha becomes strongly recommended once raids are available.",
+          "cards": [
+            {
+              "id": "ss-lv775-925",
+              "min_level": 775,
+              "max_level": 925,
+              "location": "Kingdom of Rose",
+              "target": "Swan Pirates",
+              "strategy": "Arrive in Second Sea and start grinding Swan Pirates at the Kingdom of Rose with quests. They tend to spawn in groups, so use area-of-effect abilities to clear several at once. Buddha users can particularly benefit from fighting multiple enemies at melee range simultaneously.",
+              "tips": [
+                "Group enemies together before using your most powerful AoE ability for maximum efficiency.",
+                "Buddha's wide reach makes clearing grouped Swan Pirates very fast."
+              ]
+            },
+            {
+              "id": "ss-lv925-1000",
+              "min_level": 925,
+              "max_level": 1000,
+              "location": "Green Zone",
+              "target": "Orbitus (Boss)",
+              "strategy": "Farm the Orbitus boss at Green Zone from Level 925 to 1000. Use server hopping between spawns to stay busy. Switch to a less crowded server if other players are consistently killing the boss before your quest completes.",
+              "tips": [
+                "Crowded servers slow boss farming — hop to a quieter one if needed."
+              ],
+              "verification_note": "Confirm the boss name (Orbitus) and its current availability at Green Zone."
+            },
+            {
+              "id": "ss-lv1000-1150",
+              "min_level": 1000,
+              "max_level": 1150,
+              "location": "Snow Mountain",
+              "target": "Snow Troopers",
+              "strategy": "Grind Snow Troopers with quests from Level 1000 to 1150. This is a good time to start participating in raids if you haven't already. Awakening Buddha through raids dramatically improves your grinding efficiency for the rest of the Second Sea.",
+              "tips": [
+                "Awakened Buddha is substantially more effective than unawakened for grinding.",
+                "Raids become available from the Second Sea — prioritise awakening Buddha when you can."
+              ]
+            },
+            {
+              "id": "ss-lv1150-1250",
+              "min_level": 1150,
+              "max_level": 1250,
+              "location": "Hot and Cold",
+              "target": "Smoke Admiral (Boss)",
+              "strategy": "Farm the Smoke Admiral boss at Hot and Cold from Level 1150 to 1250. Use server hopping between spawns. Learning the boss's attack patterns makes the fight consistently fast.",
+              "tips": [
+                "Use terrain positioning to avoid the boss's more dangerous attacks.",
+                "Server hop between kills to minimise downtime."
+              ]
+            },
+            {
+              "id": "ss-lv1250-1400",
+              "min_level": 1250,
+              "max_level": 1400,
+              "location": "Cursed Ship",
+              "target": "Ship Deckhands (1250–1300) → Ship Stewards (1300–1400)",
+              "strategy": "Both enemy types are found on the Cursed Ship. Grind Ship Deckhands from Level 1250 to 1300, then switch your quest to Ship Stewards and continue through Level 1400. Buddha is increasingly valuable here as Elemental immunity becomes less relevant against these harder enemies.",
+              "tips": [
+                "Update your quest at Level 1300 to switch from Deckhands to Stewards.",
+                "Buddha's melee range makes both enemy types straightforward to clear in groups."
+              ]
+            },
+            {
+              "id": "ss-lv1400-1500",
+              "min_level": 1400,
+              "max_level": 1500,
+              "location": "Ice Castle",
+              "target": "Awakened Ice Admiral (Boss)",
+              "strategy": "Farm the Awakened Ice Admiral boss from Level 1400 to 1500. Reaching Level 1500 unlocks the Third Sea unlock quest. Without Buddha, use terrain positioning carefully as this boss hits hard.",
+              "tips": [
+                "Level 1500 is the requirement to unlock access to the Third Sea.",
+                "Non-Buddha players may want to extend this phase to Level 1550 for a more comfortable Third Sea entry."
+              ],
+              "alternative": "Without Buddha, consider farming here through Level 1550 before moving to Third Sea. Use terrain positioning to manage the boss's powerful attacks."
+            }
+          ]
+        },
+        {
+          "id": "third-sea",
+          "title": "Third Sea",
+          "sea": "third",
+          "description": "The Third Sea unlocks at Level 1500 via an unlock quest. Enemies hit harder here and the level curve is steeper. Buddha remains highly recommended, though not mandatory.",
+          "cards": [
+            {
+              "id": "ts-lv1500-1550",
+              "min_level": 1500,
+              "max_level": 1550,
+              "location": "Port Town",
+              "target": "Pirate Millionaires",
+              "strategy": "Complete the Third Sea unlock quest, then grind Pirate Millionaires at Port Town from Level 1500 to 1550. This is the recommended starting point for Buddha users.",
+              "tips": [
+                "Complete the Third Sea access quest before farming here."
+              ],
+              "alternative": "Without Buddha, consider staying in Second Sea and continuing Awakened Ice Admiral farming until Level 1550 for a stronger start."
+            },
+            {
+              "id": "ts-lv1550-1675",
+              "min_level": 1550,
+              "max_level": 1675,
+              "location": "Port Town",
+              "target": "Stone (Boss)",
+              "strategy": "Farm the Stone boss at Port Town from Level 1550 to 1675. This works well for Buddha users. Use server hopping between spawns.",
+              "tips": [
+                "Stone is a good boss to learn boss hopping with — spawns are manageable."
+              ],
+              "alternative": "Without Buddha, continue farming Stone until Level 1750 before moving on to the next phase."
+            },
+            {
+              "id": "ts-lv1675-1750",
+              "min_level": 1675,
+              "max_level": 1750,
+              "location": "Hydra Island",
+              "target": "Hydra Leader (Boss)",
+              "strategy": "Move to Hydra Island and farm the Hydra Leader boss from Level 1675 to 1750. This is the recommended phase for Buddha users. If the boss proves too difficult at Level 1675, continue with Stone until 1750.",
+              "tips": [
+                "Return to Stone boss farming if Hydra Leader is too dangerous at your current level.",
+                "Buddha's defensive transformation makes this boss much more manageable."
+              ]
+            },
+            {
+              "id": "ts-lv1750-1825",
+              "min_level": 1750,
+              "max_level": 1825,
+              "location": "Great Tree",
+              "target": "Kilo Admiral (Boss)",
+              "strategy": "Farm the Kilo Admiral boss at Great Tree from Level 1750 to 1825.",
+              "tips": [
+                "Use server hopping to maintain a steady boss farming pace."
+              ],
+              "verification_note": "Confirm the Kilo Admiral boss's current name, location, and availability at Great Tree."
+            },
+            {
+              "id": "ts-lv1825-1925",
+              "min_level": 1825,
+              "max_level": 1925,
+              "location": "Floating Turtle",
+              "target": "Forest Pirates",
+              "strategy": "Head to Floating Turtle and grind Forest Pirates with quests from Level 1825 to 1925. The Floating Turtle area will be your grinding zone for several consecutive level ranges.",
+              "tips": []
+            },
+            {
+              "id": "ts-lv1925-1975",
+              "min_level": 1925,
+              "max_level": 1975,
+              "location": "Floating Turtle",
+              "target": "Musketeer Pirates",
+              "strategy": "Switch to Musketeer Pirates quests at Level 1925 and continue through Level 1975.",
+              "tips": []
+            },
+            {
+              "id": "ts-lv1975-2075",
+              "min_level": 1975,
+              "max_level": 2075,
+              "location": "Haunted Castle",
+              "target": "Reborn Skeletons (1975–2000) → Living Zombies (2000–2075)",
+              "strategy": "Move to Haunted Castle. Start by grinding Reborn Skeletons with quests from Level 1975 to 2000. At Level 2000, switch your quest to Living Zombies and continue through Level 2075. Both enemy types are in the same general area.",
+              "tips": [
+                "Update your quest when you reach Level 2000 to switch from Skeletons to Zombies."
+              ]
+            },
+            {
+              "id": "ts-lv2075-2125",
+              "min_level": 2075,
+              "max_level": 2125,
+              "location": "Sea of Treats — Peanut Island",
+              "target": "Peanut Scouts",
+              "strategy": "Head to Peanut Island in the Sea of Treats and grind Peanut Scouts with quests until Level 2125.",
+              "tips": []
+            },
+            {
+              "id": "ts-lv2125-2200",
+              "min_level": 2125,
+              "max_level": 2200,
+              "location": "Sea of Treats — Ice Cream Island",
+              "target": "Ice Cream Chefs",
+              "strategy": "Move to Ice Cream Island and grind Ice Cream Chefs with quests until Level 2200.",
+              "tips": []
+            },
+            {
+              "id": "ts-lv2200-2300",
+              "min_level": 2200,
+              "max_level": 2300,
+              "location": "Sea of Treats — Cake Island",
+              "target": "Cookie Crafters",
+              "strategy": "Move to Cake Island and grind Cookie Crafters with quests until Level 2300.",
+              "tips": []
+            },
+            {
+              "id": "ts-lv2300-2825",
+              "min_level": 2300,
+              "max_level": 2825,
+              "location": "Sea of Treats — Chocolate Island",
+              "target": "Cocoa Warriors → Chocolate Bar Battlers",
+              "strategy": "This is the longest single grinding stretch in the guide. Start with Cocoa Warriors, then alternate between Cocoa Warriors and Chocolate Bar Battlers as their respawn cycles allow. Position yourself to clear both enemy types without long travel between respawns. This area may also drop Conjured Cocoa items as a bonus. This method is suggested as more efficient than grinding at Tiki Outpost or Submerged Island for this level range.",
+              "tips": [
+                "Alternate between both enemy types based on respawn timing for maximum efficiency.",
+                "Conjured Cocoa drops here are a bonus — do not grind specifically for them during leveling."
+              ],
+              "verification_note": "Whether Chocolate Island grinding remains more efficient than Tiki Outpost or Submerged Island should be confirmed against the current game version, as patch updates can shift relative efficiency."
+            }
+          ]
+        },
+        {
+          "id": "secrets",
+          "title": "Island Secrets",
+          "sea": "secrets",
+          "description": "After completing conventional grinding, Island Secrets scattered across all three seas may allow you to push your level cap toward 3000.",
+          "cards": [
+            {
+              "id": "secrets-lv2825-3000",
+              "min_level": 2825,
+              "max_level": 3000,
+              "location": "All seas (various islands)",
+              "target": "Island Secrets",
+              "strategy": "Island Secrets are hidden activities found on islands across all three seas. Completing them is said to raise your level cap, allowing progression past the conventional grinding ceiling toward Level 3000. The recommended approach is to finish your main grinding route first, then systematically hunt the remaining Island Secrets. Some may be on islands from earlier seas that you have already visited.",
+              "tips": [
+                "Island Secrets are spread across all three seas — revisit earlier islands if you have not found all of them.",
+                "Completing remaining secrets at the end of your leveling journey is generally more efficient than hunting them as you progress."
+              ],
+              "verification_note": "The exact current maximum level, the precise number and locations of Island Secrets, how they interact with the level cap, and their specific experience rewards are subject to game updates and should be verified before acting on this guidance. If this section feels outdated, check community resources for the latest progression mechanics."
+            },
+            {
+              "id": "secrets-closing",
+              "location": "You Have Reached Max Level",
+              "target": null,
+              "strategy": "Congratulations on reaching Level 3000. At this point the game shifts toward endgame content: raids, Sea Events, boss farming, PvP, and building specialised loadouts. The Blox Fruits meta changes with updates, so revisiting community guides periodically helps you stay current. Check back here as this guide is updated alongside major game patches.",
+              "tips": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-started",
+      "title": "Getting Started with Blox Fruits",
+      "category": "Beginners",
+      "summary": "A quick overview of Blox Fruits for new players — what the game is, how Devil Fruits work, and how to get started.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["beginners", "basics", "overview"],
+      "content": "Blox Fruits is a Roblox game inspired by the One Piece anime. Players explore three seas, fight enemies to gain experience and level up, hunt for Devil Fruits, and develop their fighting style.\n\nThe three main areas are the First Sea (starter area, lower-level enemies), the Second Sea (unlocked at level 700, harder content), and the Third Sea (unlocked at level 1500, the most challenging content and endgame activities).\n\nDevil Fruits are items found scattered around the map or purchaseable from the Blox Fruits Dealer. Eating a fruit gives you special powers based on its type. Each player can hold only one fruit at a time — eating a new one replaces the old one and you lose its powers.\n\nLeveling up is done by defeating enemies in the world. Fighting NPCs slightly above your level gives the best experience. As you level, new abilities unlock and you can travel to stronger areas.\n\nYour fighting style matters. The three combat paths are Sword, Gun, and Fruit. Most players specialize in one, though mixing is possible. For new players, mastering your fruit's abilities early makes progression much smoother.\n\nTo begin, talk to the Blox Fruits Dealer in the Starter Town to see which fruits are available. Even a Common-rarity fruit will help you significantly early on."
+    },
+    {
+      "id": "fruit-types-explained",
+      "title": "Understanding Fruit Types",
+      "category": "Fruits",
+      "summary": "What Natural, Elemental, and Beast fruits are, and how their passive abilities differ in combat.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["fruits", "types", "elemental", "beast", "natural"],
+      "content": "All Devil Fruits in Blox Fruits belong to one of three types: Natural (Paramecia), Elemental (Logia), and Beast (Zoan). Understanding these types helps you choose the right fruit and understand how to fight against them.\n\nNatural fruits give special powers without transforming the body into an element or animal. These range from rubber-like durability, gravity manipulation, spider webs, and more. Natural fruits are the most diverse category and include many top-tier PvP options.\n\nElemental fruits transform the user's body into a natural element such as fire, smoke, ice, sand, or lightning. Elemental users have a special passive ability: their body passively deflects physical attacks from players who have not activated Enhancement Haki (Aura). This makes them very durable in the early game when opponents lack Haki. Note that higher-level NPCs can bypass this immunity regardless of Haki.\n\nBeast fruits allow the user to transform into a powerful animal form, greatly increasing their combat stats and sometimes giving access to powerful transformation-exclusive abilities. Popular Beast fruits include Dragon, Phoenix, and Tiger. Beast transformations are especially strong for grinding because of high damage output and mobility.\n\nThe key mechanic to understand is the Elemental body passive: Enhancement Haki (Aura/Buso) bypasses it completely. Once players unlock and activate Aura, Elemental users lose their damage immunity against those opponents. This is a major mid-game milestone for all players."
+    },
+    {
+      "id": "enhancement-haki-guide",
+      "title": "Using Enhancement Haki (Aura)",
+      "category": "Combat",
+      "summary": "What Enhancement Haki is, how to unlock it, and why it is essential for both PvP and NPC combat.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["haki", "enhancement", "aura", "combat", "pvp"],
+      "content": "Haki is a special power in Blox Fruits that represents the user's willpower. There are two main types: Enhancement Haki (also called Aura or Buso) and Observation Haki (also called Ken or Instinct). This guide focuses on Enhancement Haki.\n\nEnhancement Haki coats your body or weapons in a dark aura, hardening them for increased damage and — most importantly — allowing your attacks to bypass the Elemental body immunity of Logia-type fruit users. Without Aura active, your physical attacks will pass through an Elemental user's body and deal no damage.\n\nTo unlock Enhancement Haki, you need to reach a certain level and speak to the Ability Teacher NPC. The teacher can be found in the Frozen Village area on the First Sea. You will need Fragments (the in-game premium currency) or Beli to purchase the ability.\n\nOnce unlocked, activate Aura by pressing its keybind (default varies; check your ability menu). When active, your character glows with a dark coating. Aura drains over time, so you need to reactivate it periodically during fights.\n\nWhy is Aura so important? First, it allows you to damage Elemental users who would otherwise be invulnerable. Second, Aura-coated attacks deal extra damage to all enemies. Third, some endgame content requires Aura to deal meaningful damage at all.\n\nObservation Haki (Ken/Instinct) is a separate ability that lets you dodge attacks automatically. It does not bypass Elemental immunity — that is exclusively Enhancement Haki's role. Many players confuse the two, so it is worth being clear: only Enhancement Haki (Aura) breaks Elemental body."
+    },
+    {
+      "id": "second-sea-guide",
+      "title": "Reaching and Navigating the Second Sea",
+      "category": "Progression",
+      "summary": "How to unlock the Second Sea at level 700 and what to expect when you arrive.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["second-sea", "progression", "level-700"],
+      "content": "The Second Sea is the first major milestone in Blox Fruits progression. It becomes accessible once you reach level 700 on the First Sea.\n\nTo unlock the Second Sea, reach level 700 and speak to the Military Detective NPC on the First Sea. He will give you a quest to prove yourself. After completing it, you will be able to sail to the Second Sea using a boat or the Fast Travel option.\n\nThe Second Sea has significantly stronger enemies and new islands to explore. The level range continues from around 700 to 1500. You will encounter new bosses, new fruits in the dealer's stock, and new mechanics that were not present in the First Sea.\n\nKey differences to be aware of: enemy NPCs in the Second Sea deal much more damage, so you will need to upgrade your stats and potentially switch to a stronger fruit. Enhancement Haki becomes even more critical here because many enemies have higher health pools.\n\nThe Second Sea also introduces more complex quests and Sea Events — random world events that spawn on the ocean and reward rare drops. Participating in Sea Events is one of the best ways to farm rare items and earn Fragments.\n\nOnce you feel comfortable in the Second Sea and reach level 1500, you can unlock the Third Sea, which contains the most challenging content in the game."
+    },
+    {
+      "id": "fruit-selection-guide",
+      "title": "Choosing the Right Devil Fruit",
+      "category": "Fruits",
+      "summary": "How to pick a fruit that matches your playstyle, whether you focus on grinding, PvP, or progression.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["fruits", "selection", "grinding", "pvp", "beginners"],
+      "content": "Choosing a Devil Fruit is one of the most impactful decisions in Blox Fruits. The right fruit can make leveling feel effortless; the wrong one can make progress frustrating. Here is how to think through the decision.\n\nFirst, consider your primary goal. Are you focused on leveling up quickly, competing in PvP, or doing Sea Events? Different fruits excel in different activities. No single fruit is the best at everything, though some come close at higher tiers.\n\nFor grinding (leveling quickly), look for Elemental or Beast fruits with wide area-of-effect attacks. Elemental fruits are especially effective early and mid-game because their body immunity means you take far less damage from ordinary enemies. Flame, Ice, and Magma are solid early Elemental choices. For Beast fruits, Dragon and Phoenix are S-tier grinders but require significant investment.\n\nFor PvP (player versus player combat), Natural fruits tend to perform well because they offer tricky mechanics — stuns, knockback, and unpredictable hitboxes. Top PvP fruits include Dough, Venom, and Shadow. Enhancement Haki is mandatory in PvP, so unlock it early.\n\nFor beginners, prioritize fruits that are forgiving to play. Fruits with straightforward abilities and decent area damage make the early game much easier. Avoid very expensive Mythical fruits at first — they can be difficult to play effectively without experience.\n\nBudget matters. Common and Uncommon fruits are cheap to buy from the Blox Fruits Dealer and still carry you through most of the First Sea. You do not need a Legendary or Mythical fruit to reach the Second Sea.\n\nFruits can be sold back when eating a new one gives you Beli in return, though you lose the old fruit permanently. Plan your fruit path — if you find a Legendary fruit early, consider keeping it rather than eating a Common fruit for short-term convenience.\n\nFinally, try fruits before committing if you can. Many experienced players keep a second fruit in storage and switch between grinding and PvP loadouts. This becomes easier to do once you reach the Second Sea and accumulate more Beli."
+    },
+    {
+      "id": "observation-haki-guide",
+      "title": "Using Observation Haki (Instinct)",
+      "category": "Combat",
+      "summary": "What Observation Haki is, how to unlock it, and how to use its automatic dodge in combat.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["haki", "observation", "ken", "instinct", "dodge", "combat"],
+      "content": "Observation Haki — also known as Ken or Instinct — is the second major Haki type in Blox Fruits. It is focused on awareness and evasion rather than offense.\n\nWith Observation Haki active, your character gains the ability to automatically dodge incoming attacks. When a projectile or melee strike approaches, the Haki triggers a burst of movement that carries you to safety. This makes you very difficult to hit and is a major advantage in both PvP and boss fights.\n\nObservation Haki is a completely different mechanic from Enhancement Haki. Enhancement Haki (Aura) increases damage and bypasses Elemental body immunity. Observation Haki only provides the automatic dodge — it does not break Elemental immunity, it does not increase your damage, and it does not coat your attacks. Players sometimes confuse the two; make sure you know which one you need for a given situation.\n\nTo unlock Observation Haki, you must reach a higher level than Enhancement Haki and speak to the relevant teacher NPC. It requires Fragments and is generally unlocked after Enhancement Haki because Enhancement Haki is more immediately necessary.\n\nOnce unlocked, Observation Haki is activated manually and drains over time based on how many dodges it performs. Each automatic dodge consumes a portion of the Haki gauge. When the gauge runs out, the ability deactivates and you need to reactivate it.\n\nAt higher upgrade levels, Observation Haki's dodge becomes faster and the gauge depletes more slowly. Upgrading it is a priority for players who engage in PvP frequently.\n\nIn endgame PvP, both Haki types are expected. Enhancement Haki is your offensive tool; Observation Haki is your defensive tool. Using them together gives you the most complete combat kit."
+    },
+    {
+      "id": "combat-basics",
+      "title": "Combat Basics for New Players",
+      "category": "Combat",
+      "summary": "Core combat concepts including stat allocation, ability usage, and fighting strategies for beginners.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["combat", "beginners", "stats", "abilities", "strategy"],
+      "content": "Understanding how combat works is essential for enjoying Blox Fruits. Here are the core concepts every new player should know.\n\nYour combat performance depends on three factors: your stats, your fruit or weapon, and your skill in using your abilities. Stats can be upgraded by spending stat points earned on levelup. Weapons and fruits determine which abilities you have access to. And practice teaches you when to use each ability effectively.\n\nThe three stat categories are Melee (increases melee and fruit ability damage), Defense (increases your health and damage resistance), and Fruit/Sword/Gun (increases the specific combat style's effectiveness). Spread your points too thin and nothing works well; concentrate them on your chosen style and you become much more effective.\n\nAbilities have cooldowns. Most fruit abilities cannot be spammed — you need to use them in a rotation. Learn the cooldown rhythm of your fruit's moves so you always have something available when needed. Avoid burning all abilities at once because you leave yourself unable to act while everything recharges.\n\nKnow your fruit's range. Some abilities are close-range, others are long-range projectiles. Fighting in the wrong range bracket for your fruit puts you at a disadvantage. Dough, for example, benefits from mid-range combat; Light fruit favors long-range beams.\n\nDodging attacks is as important as dealing damage. Movement speed upgrades and Observation Haki both help with evasion. Learning enemy attack patterns — especially boss patterns — dramatically reduces how much damage you take.\n\nAgainst other players, expect them to have Enhancement Haki active. Assume your Elemental body immunity will not protect you in PvP. You need to dodge and counter-attack rather than relying on passive defenses.\n\nUse terrain to your advantage. Fighting in tight corridors, elevated positions, or near walls can limit enemy movement options and help you land abilities more reliably."
+    },
+    {
+      "id": "sea-events-guide",
+      "title": "Sea Events — What They Are and How to Farm Them",
+      "category": "Sea Events",
+      "summary": "An overview of the random ocean events in Blox Fruits and how to participate effectively.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["sea-events", "fragments", "farming", "ocean", "events"],
+      "content": "Sea Events are random encounters that spawn on the open ocean in Blox Fruits. They appear without warning, last for a limited time, and reward players who participate with rare drops including Fragments, items, and other useful rewards.\n\nSea Events are some of the best sources of Fragments in the game. Fragments are the premium-adjacent currency used to unlock and upgrade Haki, buy certain items, and access various endgame mechanics. Farming Sea Events consistently is one of the most efficient ways to build up your Fragments supply.\n\nThe most commonly discussed Sea Events include Rumble Ship (a ghost ship that periodically spawns and must be defeated) and Sea Beast encounters (large sea monsters that emerge from the water near boats). Each event type has its own mechanics and rewards, but both are worth engaging.\n\nTo reach Sea Events, you need a boat. Boats can be purchased from the Boat Dealer NPC found in most sea areas. Faster boats help you reach events before they despawn or fill up with other players.\n\nWhen a Sea Event spawns, a notification or visual indicator appears. Move toward it quickly. Sea Events often attract multiple players, which actually speeds them up since more damage is being dealt. Do not be discouraged if others are already there — you just need to land some hits to qualify for rewards.\n\nSea Events become accessible in the Second Sea and above, where they are more frequent and more rewarding than in the First Sea. If you are still in the First Sea, focus on leveling to 700 first.\n\nSome players build entire play sessions around Sea Event farming: sail between spawn zones, engage events as they appear, collect rewards, and repeat. This routine also provides decent combat experience, making it a good dual-purpose activity."
+    },
+    {
+      "id": "third-sea-guide",
+      "title": "Reaching and Exploring the Third Sea",
+      "category": "Progression",
+      "summary": "How to unlock the Third Sea at level 1500 and an overview of what awaits you there.",
+      "published_at": "2026-10-11",
+      "source_url": null,
+      "tags": ["third-sea", "progression", "level-1500", "endgame"],
+      "content": "The Third Sea is the endgame region of Blox Fruits. It becomes accessible once you reach level 1500 in the Second Sea, and it contains the most powerful enemies, rarest items, and most complex content in the game.\n\nTo unlock the Third Sea, you must reach level 1500. At that point, speak to the relevant NPC who will give you the quest needed to make the transition. The Third Sea unlock quest may have additional requirements beyond the level threshold — check in-game to confirm what is needed before you begin.\n\nThe Third Sea introduces new islands, each with distinct visual themes and enemy types. Enemy NPCs hit much harder than in the Second Sea, so make sure your stats and equipment are well developed before arriving. Underleveled players will struggle significantly.\n\nHaki is more important than ever in the Third Sea. Both Enhancement Haki (Aura) and Observation Haki (Instinct) should be unlocked and upgraded before you arrive. Many Third Sea enemies and bosses deal enough damage to kill players who are not actively dodging.\n\nThe Third Sea introduces new mechanics not found in earlier seas, including more complex boss fights, additional raid types, and new questing systems. Exploring slowly and learning each new system is better than rushing forward unprepared.\n\nRaids become a major part of gameplay in the Third Sea. Raids are instanced boss encounters that require a coordinated group or a very strong individual player. The rewards from raids include some of the best items in the game, including the most powerful fruits' accessories.\n\nThe endgame loop in the Third Sea revolves around raids, Sea Events, boss farming, and PvP. Players who have completed the main leveling journey spend most of their time here optimizing their builds and competing with others.\n\nIf you are still in the Second Sea, do not rush to the Third Sea before you are ready. A well-prepared arrival at level 1500 is far more enjoyable than arriving underequipped and dying repeatedly."
+    }
+  ]
+}
